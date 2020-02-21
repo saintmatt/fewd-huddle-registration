@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open-Sans', sans-serif;
+  color: white;
+
+}
+
+
+main {
+  background-image: url("/images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(257, 40%, 49%);
+  height: 100%;
+  padding: 50px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Poppins' , sans-serif;
+  font-weight: 400;
+}
+
+img {
+  margin-bottom: 55px;
+}
+
+#left header img {
+  max-width: 50%;
+}
+
+#left .product-image img {
+  max-width: 100%;
+}
+
+#right {
+  text-align: center;
+  line-height: 1.7;
+}
